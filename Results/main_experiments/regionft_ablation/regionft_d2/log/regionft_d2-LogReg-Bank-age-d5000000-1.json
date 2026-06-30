@@ -1,0 +1,41 @@
+{
+  "label": "regionft_d2-LogReg-Bank-age-d5000000",
+  "repeat": 1,
+  "method": "regionft_d2",
+  "model": "LogReg",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 257053,
+  "no_test": 5015187,
+  "prec": 0.0512549183111218,
+  "cpu_time": 214.00129387999993,
+  "real_time": 214.00532960891724,
+  "partition": {
+    "cpu_time": 1.188645815999962,
+    "real_time": 1.1888659000396729,
+    "no_test": 15187,
+    "no_disc": 280,
+    "n_regions": 4
+  },
+  "generation": {
+    "cpu_time": 212.81264806399997,
+    "real_time": 212.81646370887756,
+    "no_test": 5000000,
+    "no_disc": 256773
+  },
+  "config": {
+    "max_depth": 2,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 1
+  }
+}

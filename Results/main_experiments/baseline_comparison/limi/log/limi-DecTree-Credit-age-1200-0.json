@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Credit-age-1200",
+  "repeat": 0,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 161099,
+  "no_test": 419132,
+  "prec": 0.38436339864290964,
+  "cpu_time": null,
+  "real_time": 755.6227140426636
+}

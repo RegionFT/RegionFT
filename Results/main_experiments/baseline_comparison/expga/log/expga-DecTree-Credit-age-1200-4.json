@@ -1,0 +1,16 @@
+{
+  "label": "expga-DecTree-Credit-age-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 819419,
+  "no_test": 976138,
+  "prec": 0.8394499548219616,
+  "cpu_time": 1200.027767867,
+  "real_time": 1200.082759141922,
+  "local_cpu_time": 1197.3417567469996,
+  "local_real_time": 1197.396403312683
+}

@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p1-MLP-Adult-age-d5000000",
+  "repeat": 1,
+  "method": "regionft_a0p1",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 1652617,
+  "no_test": 7195808,
+  "prec": 0.22966385428849687,
+  "cpu_time": 518.551088069,
+  "real_time": 518.5771951675415,
+  "partition": {
+    "cpu_time": 198.720119116,
+    "real_time": 198.7404477596283,
+    "no_test": 2195808,
+    "no_disc": 604947,
+    "n_regions": 1023
+  },
+  "generation": {
+    "cpu_time": 319.830968953,
+    "real_time": 319.8367474079132,
+    "no_test": 5000000,
+    "no_disc": 1047670
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.1,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 1
+  }
+}

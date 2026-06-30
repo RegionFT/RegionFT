@@ -1,0 +1,14 @@
+{
+  "label": "grft-DecTree-Adult-sex-1200",
+  "repeat": 2,
+  "method": "grft",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 7555755,
+  "no_test": 37895997,
+  "prec": 0.1993813489060599,
+  "cpu_time": 1232.5380136840001,
+  "real_time": 1232.9697124958038
+}

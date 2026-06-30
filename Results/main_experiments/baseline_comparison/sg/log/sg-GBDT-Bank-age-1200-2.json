@@ -1,0 +1,14 @@
+{
+  "label": "sg-GBDT-Bank-age-1200",
+  "repeat": 2,
+  "method": "sg",
+  "model": "GBDT",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3930,
+  "no_test": 6903,
+  "prec": 0.5693176879617557,
+  "cpu_time": 1200.1037612519995,
+  "real_time": 1200.0978841781616
+}

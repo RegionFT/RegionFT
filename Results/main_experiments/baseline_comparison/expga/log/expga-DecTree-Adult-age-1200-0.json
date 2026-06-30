@@ -1,0 +1,16 @@
+{
+  "label": "expga-DecTree-Adult-age-1200",
+  "repeat": 0,
+  "method": "expga",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 818530,
+  "no_test": 878798,
+  "prec": 0.9314199622666415,
+  "cpu_time": 1200.0588877429996,
+  "real_time": 1200.1554961204529,
+  "local_cpu_time": 1197.735936744,
+  "local_real_time": 1197.8316962718964
+}

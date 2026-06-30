@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Credit-age-1200",
+  "repeat": 2,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 138097,
+  "no_test": 420707,
+  "prec": 0.32824982707680167,
+  "cpu_time": null,
+  "real_time": 599.7320072650909
+}

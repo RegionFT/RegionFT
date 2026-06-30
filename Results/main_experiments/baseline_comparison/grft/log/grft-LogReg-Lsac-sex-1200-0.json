@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Lsac-sex-1200",
+  "repeat": 0,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 15978562,
+  "no_test": 47362961,
+  "prec": 0.33736408498615617,
+  "cpu_time": 1235.1388786789998,
+  "real_time": 1235.4820792675018
+}

@@ -1,0 +1,16 @@
+{
+  "label": "expga-GBDT-Adult-sex-1200",
+  "repeat": 2,
+  "method": "expga",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 763988,
+  "no_test": 1484697,
+  "prec": 0.5145750277666082,
+  "cpu_time": 1200.0300577999997,
+  "real_time": 1200.1082966327667,
+  "local_cpu_time": 1185.673304251,
+  "local_real_time": 1185.7479329109192
+}

@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Adult-sex-1200",
+  "repeat": 4,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 225150,
+  "no_test": 2003469,
+  "prec": 0.11238007675686522,
+  "cpu_time": 1200.241569322,
+  "real_time": 1200.2719178199768
+}

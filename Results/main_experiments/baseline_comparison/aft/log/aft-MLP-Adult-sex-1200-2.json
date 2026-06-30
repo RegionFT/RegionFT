@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Adult-sex-1200",
+  "repeat": 2,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 161401,
+  "no_test": 2257932,
+  "prec": 0.07148178067364296,
+  "cpu_time": 1200.128692067,
+  "real_time": 1200.1565299034119
+}

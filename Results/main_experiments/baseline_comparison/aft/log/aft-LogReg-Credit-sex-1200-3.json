@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Credit-sex-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 304145,
+  "no_test": 2318376,
+  "prec": 0.13118881492907103,
+  "cpu_time": 1200.0393905140002,
+  "real_time": 1200.0594460964203
+}

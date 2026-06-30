@@ -1,0 +1,14 @@
+{
+  "label": "grft-GBDT-Adult-age-1200",
+  "repeat": 2,
+  "method": "grft",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 4477752,
+  "no_test": 18782213,
+  "prec": 0.23840385581826806,
+  "cpu_time": 1219.2097483339999,
+  "real_time": 1219.72714138031
+}

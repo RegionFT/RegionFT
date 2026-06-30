@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Credit-sex-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 3870,
+  "no_test": 9277,
+  "prec": 0.41716072006036437,
+  "cpu_time": 1200.0487648420003,
+  "real_time": 1200.0737977027893
+}

@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Lsac-race-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 808422,
+  "no_test": 2242222,
+  "prec": 0.36054503077750555,
+  "cpu_time": 1200.1634220200003,
+  "real_time": 1200.2140834331512
+}

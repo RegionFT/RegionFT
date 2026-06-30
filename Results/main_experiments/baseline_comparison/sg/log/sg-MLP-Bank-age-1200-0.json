@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Bank-age-1200",
+  "repeat": 0,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 5061,
+  "no_test": 6653,
+  "prec": 0.7607094543814821,
+  "cpu_time": 1200.1103071259995,
+  "real_time": 1200.1305656433105
+}

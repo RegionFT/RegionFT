@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Bank-age-1200",
+  "repeat": 4,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 663404,
+  "no_test": 1398266,
+  "prec": 0.474447637287898,
+  "cpu_time": 1200.641951278,
+  "real_time": 1200.6930747032166
+}

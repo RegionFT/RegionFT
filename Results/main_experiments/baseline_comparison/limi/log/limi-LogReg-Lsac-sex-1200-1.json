@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Lsac-sex-1200",
+  "repeat": 1,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 20723,
+  "no_test": 500000,
+  "prec": 0.041446,
+  "cpu_time": null,
+  "real_time": 255.25280451774597
+}

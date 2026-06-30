@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p5-LogReg-Credit-age-d5000000",
+  "repeat": 1,
+  "method": "regionft_a0p5",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 1257222,
+  "no_test": 6943519,
+  "prec": 0.18106409732586604,
+  "cpu_time": 315.8427955830002,
+  "real_time": 315.8537607192993,
+  "partition": {
+    "cpu_time": 127.64011638100055,
+    "real_time": 127.64936232566833,
+    "no_test": 1943519,
+    "no_disc": 258982,
+    "n_regions": 895
+  },
+  "generation": {
+    "cpu_time": 188.20267920199967,
+    "real_time": 188.20439839363098,
+    "no_test": 5000000,
+    "no_disc": 998240
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.5,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Credit-sex-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 20142,
+  "no_test": 435464,
+  "prec": 0.0462541105579336,
+  "cpu_time": null,
+  "real_time": 439.96595549583435
+}

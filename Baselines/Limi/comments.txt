@@ -1,0 +1,24 @@
+# Train Gans
+
+CUDA_VISIBLE_DEVICES='' python train_gan.py --exp_name=census \
+    --num_samples=100 --save=census_gan.pth \
+    --output=census_sample.csv \
+    --output_train=census_train_raw.csv \
+    --data=./datasets/census_train.csv
+
+CUDA_VISIBLE_DEVICES='' python train_gan.py --exp_name=credit \
+    --num_samples=100 --save='credit_gan.pth' \
+    --output='credit_sample.csv' \
+    --output_train='credit_train_raw.csv' \
+    --data='./datasets/credit_train.csv'
+
+CUDA_VISIBLE_DEVICES='' python train_gan.py --exp_name=bank \
+    --num_samples=100 --save='bank_gan.pth' \
+    --output='bank_sample.csv' \
+    --output_train='bank_train_raw1w.csv' \
+    --data='./datasets/bank_train.csv'
+
+# Install venv
+python3 -m venv env_limi
+source env_limi/bin/activate
+pip install -r new_requirements.txt

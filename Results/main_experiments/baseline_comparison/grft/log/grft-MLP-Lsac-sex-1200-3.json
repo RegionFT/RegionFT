@@ -1,0 +1,14 @@
+{
+  "label": "grft-MLP-Lsac-sex-1200",
+  "repeat": 3,
+  "method": "grft",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 18990529,
+  "no_test": 54161200,
+  "prec": 0.3506297681735264,
+  "cpu_time": 1241.079917121,
+  "real_time": 1241.3938343524933
+}

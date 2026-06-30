@@ -1,0 +1,14 @@
+{
+  "label": "aft-DecTree-Lsac-sex-1200",
+  "repeat": 2,
+  "method": "aft",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 379207,
+  "no_test": 930476,
+  "prec": 0.40754087155391433,
+  "cpu_time": 1200.2771234899997,
+  "real_time": 1200.3461709022522
+}

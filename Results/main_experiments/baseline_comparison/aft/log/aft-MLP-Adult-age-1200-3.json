@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Adult-age-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 2156611,
+  "no_test": 2255201,
+  "prec": 0.9562832758587816,
+  "cpu_time": 1205.760689746,
+  "real_time": 1205.8428506851196
+}

@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p5-LogReg-Adult-sex-d5000000",
+  "repeat": 2,
+  "method": "regionft_a0p5",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 318172,
+  "no_test": 6816861,
+  "prec": 0.046674268405942264,
+  "cpu_time": 147.1749753439999,
+  "real_time": 147.17801427841187,
+  "partition": {
+    "cpu_time": 79.12657375399976,
+    "real_time": 79.12845849990845,
+    "no_test": 1816861,
+    "no_disc": 88977,
+    "n_regions": 876
+  },
+  "generation": {
+    "cpu_time": 68.04840159000014,
+    "real_time": 68.04955577850342,
+    "no_test": 5000000,
+    "no_disc": 229195
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.5,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 2
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p25-DecTree-Credit-age-d5000000",
+  "repeat": 1,
+  "method": "regionft_a0p25",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 2948407,
+  "no_test": 5263041,
+  "prec": 0.5602097722590419,
+  "cpu_time": 217.7590102119998,
+  "real_time": 217.7732264995575,
+  "partition": {
+    "cpu_time": 20.50936749399989,
+    "real_time": 20.51415467262268,
+    "no_test": 263041,
+    "no_disc": 151711,
+    "n_regions": 122
+  },
+  "generation": {
+    "cpu_time": 197.2496427179999,
+    "real_time": 197.25907182693481,
+    "no_test": 5000000,
+    "no_disc": 2796696
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.25,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p25-LogReg-Credit-sex-d5000000",
+  "repeat": 4,
+  "method": "regionft_a0p25",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 474623,
+  "no_test": 7153850,
+  "prec": 0.06634511486821781,
+  "cpu_time": 174.0681498140002,
+  "real_time": 174.07172203063965,
+  "partition": {
+    "cpu_time": 96.57979733299999,
+    "real_time": 96.5825264453888,
+    "no_test": 2153850,
+    "no_disc": 132963,
+    "n_regions": 999
+  },
+  "generation": {
+    "cpu_time": 77.48835248100022,
+    "real_time": 77.48919558525085,
+    "no_test": 5000000,
+    "no_disc": 341660
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.25,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 4
+  }
+}

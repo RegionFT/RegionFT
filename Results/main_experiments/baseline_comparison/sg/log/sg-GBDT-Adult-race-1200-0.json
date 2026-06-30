@@ -1,0 +1,14 @@
+{
+  "label": "sg-GBDT-Adult-race-1200",
+  "repeat": 0,
+  "method": "sg",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 149,
+  "no_test": 7804,
+  "prec": 0.019092772936955407,
+  "cpu_time": 1200.0381075639998,
+  "real_time": 1200.0336475372314
+}

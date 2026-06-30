@@ -1,0 +1,14 @@
+{
+  "label": "limi-GBDT-Bank-age-1200",
+  "repeat": 2,
+  "method": "limi",
+  "model": "GBDT",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 54760,
+  "no_test": 358728,
+  "prec": 0.152650476126759,
+  "cpu_time": null,
+  "real_time": 1396.2265377044678
+}

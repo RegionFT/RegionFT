@@ -1,0 +1,14 @@
+{
+  "label": "aft-DecTree-Adult-sex-1200",
+  "repeat": 2,
+  "method": "aft",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 4236512,
+  "no_test": 5323647,
+  "prec": 0.7957913062229708,
+  "cpu_time": 1200.1558188510003,
+  "real_time": 1200.197679758072
+}

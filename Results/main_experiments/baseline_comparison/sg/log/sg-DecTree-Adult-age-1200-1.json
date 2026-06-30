@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Adult-age-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3222,
+  "no_test": 4408,
+  "prec": 0.7309437386569873,
+  "cpu_time": 1200.0677764819998,
+  "real_time": 1200.0739772319794
+}

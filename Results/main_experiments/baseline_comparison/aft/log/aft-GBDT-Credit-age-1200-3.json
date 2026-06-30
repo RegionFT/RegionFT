@@ -1,0 +1,14 @@
+{
+  "label": "aft-GBDT-Credit-age-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 286118,
+  "no_test": 902918,
+  "prec": 0.31688148868446525,
+  "cpu_time": 1201.260794982,
+  "real_time": 1201.281378030777
+}

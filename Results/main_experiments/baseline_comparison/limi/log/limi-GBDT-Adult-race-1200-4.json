@@ -1,0 +1,14 @@
+{
+  "label": "limi-GBDT-Adult-race-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 8150,
+  "no_test": 421918,
+  "prec": 0.019316549661308597,
+  "cpu_time": null,
+  "real_time": 1066.5370333194733
+}

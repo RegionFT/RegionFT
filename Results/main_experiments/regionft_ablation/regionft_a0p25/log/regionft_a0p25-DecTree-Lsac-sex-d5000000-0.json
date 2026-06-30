@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p25-DecTree-Lsac-sex-d5000000",
+  "repeat": 0,
+  "method": "regionft_a0p25",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 1710906,
+  "no_test": 6028530,
+  "prec": 0.28380152375454715,
+  "cpu_time": 140.28348293499994,
+  "real_time": 140.288019657135,
+  "partition": {
+    "cpu_time": 65.8525542819998,
+    "real_time": 65.85668134689331,
+    "no_test": 1028530,
+    "no_disc": 165390,
+    "n_regions": 473
+  },
+  "generation": {
+    "cpu_time": 74.43092865300014,
+    "real_time": 74.4313383102417,
+    "no_test": 5000000,
+    "no_disc": 1545516
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.25,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

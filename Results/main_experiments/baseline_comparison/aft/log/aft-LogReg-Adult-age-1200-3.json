@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Adult-age-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 1450645,
+  "no_test": 1677023,
+  "prec": 0.8650119885058225,
+  "cpu_time": 1203.5120713749998,
+  "real_time": 1203.575982093811
+}

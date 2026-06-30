@@ -1,0 +1,42 @@
+{
+  "label": "regionft_random-MLP-Bank-age-d5000000",
+  "repeat": 2,
+  "method": "regionft_random",
+  "model": "MLP",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 950760,
+  "no_test": 6087489,
+  "prec": 0.15618262308153658,
+  "cpu_time": 320.8444341889999,
+  "real_time": 320.84505558013916,
+  "partition": {
+    "cpu_time": 66.26129048500025,
+    "real_time": 66.26132583618164,
+    "no_test": 1087489,
+    "no_disc": 122221,
+    "n_regions": 1024
+  },
+  "generation": {
+    "cpu_time": 254.58314370399967,
+    "real_time": 254.58372974395752,
+    "no_test": 5000000,
+    "no_disc": 828539
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 2,
+    "partition_mode": "random"
+  }
+}

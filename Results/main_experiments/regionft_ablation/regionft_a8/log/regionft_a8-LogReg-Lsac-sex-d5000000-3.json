@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a8-LogReg-Lsac-sex-d5000000",
+  "repeat": 3,
+  "method": "regionft_a8",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 512644,
+  "no_test": 7081359,
+  "prec": 0.07239344877162703,
+  "cpu_time": 181.80642801200065,
+  "real_time": 181.8101646900177,
+  "partition": {
+    "cpu_time": 112.54328772100052,
+    "real_time": 112.54693412780762,
+    "no_test": 2081359,
+    "no_disc": 73131,
+    "n_regions": 985
+  },
+  "generation": {
+    "cpu_time": 69.26314029100013,
+    "real_time": 69.26323056221008,
+    "no_test": 5000000,
+    "no_disc": 439513
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 8.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 3
+  }
+}

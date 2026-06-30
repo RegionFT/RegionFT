@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Lsac-race-1200",
+  "repeat": 4,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 2668,
+  "no_test": 8232,
+  "prec": 0.3241010689990282,
+  "cpu_time": 1200.04753918,
+  "real_time": 1200.0341832637787
+}

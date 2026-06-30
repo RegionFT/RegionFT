@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a8-MLP-Adult-sex-d5000000",
+  "repeat": 3,
+  "method": "regionft_a8",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 667021,
+  "no_test": 7111298,
+  "prec": 0.09379736301305332,
+  "cpu_time": 198.84942192000017,
+  "real_time": 198.85349798202515,
+  "partition": {
+    "cpu_time": 101.17510257200047,
+    "real_time": 101.17847514152527,
+    "no_test": 2111298,
+    "no_disc": 81074,
+    "n_regions": 1010
+  },
+  "generation": {
+    "cpu_time": 97.6743193479997,
+    "real_time": 97.67502284049988,
+    "no_test": 5000000,
+    "no_disc": 585947
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 8.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 3
+  }
+}

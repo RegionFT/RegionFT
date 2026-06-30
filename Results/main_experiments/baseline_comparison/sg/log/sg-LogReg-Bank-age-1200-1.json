@@ -1,0 +1,14 @@
+{
+  "label": "sg-LogReg-Bank-age-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "LogReg",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 1207,
+  "no_test": 7946,
+  "prec": 0.15190032720865845,
+  "cpu_time": 1200.0031575450002,
+  "real_time": 1200.003252506256
+}

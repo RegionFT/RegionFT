@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Credit-sex-1200",
+  "repeat": 0,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 306260,
+  "no_test": 2422841,
+  "prec": 0.1264053233373548,
+  "cpu_time": 1200.014260475,
+  "real_time": 1200.051795244217
+}

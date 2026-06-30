@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Adult-sex-1200",
+  "repeat": 4,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 1395,
+  "no_test": 6525,
+  "prec": 0.21379310344827587,
+  "cpu_time": 1200.041530435,
+  "real_time": 1200.0345811843872
+}

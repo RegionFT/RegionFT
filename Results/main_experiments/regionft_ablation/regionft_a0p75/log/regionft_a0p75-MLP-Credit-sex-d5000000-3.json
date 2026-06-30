@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p75-MLP-Credit-sex-d5000000",
+  "repeat": 3,
+  "method": "regionft_a0p75",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 644279,
+  "no_test": 6998426,
+  "prec": 0.0920605576168127,
+  "cpu_time": 171.19575379399976,
+  "real_time": 171.20270562171936,
+  "partition": {
+    "cpu_time": 85.86231339400001,
+    "real_time": 85.86909008026123,
+    "no_test": 1998426,
+    "no_disc": 131026,
+    "n_regions": 932
+  },
+  "generation": {
+    "cpu_time": 85.33344039999974,
+    "real_time": 85.33361554145813,
+    "no_test": 5000000,
+    "no_disc": 513253
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.75,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 3
+  }
+}

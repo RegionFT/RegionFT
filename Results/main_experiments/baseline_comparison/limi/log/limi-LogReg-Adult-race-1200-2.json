@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Adult-race-1200",
+  "repeat": 2,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 19407,
+  "no_test": 422141,
+  "prec": 0.045972791081652815,
+  "cpu_time": null,
+  "real_time": 462.1346642971039
+}

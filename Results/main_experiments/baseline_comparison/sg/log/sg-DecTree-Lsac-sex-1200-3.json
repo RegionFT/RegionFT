@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Lsac-sex-1200",
+  "repeat": 3,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 4200,
+  "no_test": 6658,
+  "prec": 0.6308200660859117,
+  "cpu_time": 1200.1538260349998,
+  "real_time": 1200.162210226059
+}

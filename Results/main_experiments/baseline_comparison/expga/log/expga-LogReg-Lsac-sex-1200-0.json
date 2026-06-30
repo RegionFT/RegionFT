@@ -1,0 +1,16 @@
+{
+  "label": "expga-LogReg-Lsac-sex-1200",
+  "repeat": 0,
+  "method": "expga",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 336136,
+  "no_test": 2861558,
+  "prec": 0.11746607966709044,
+  "cpu_time": 1200.0003472430008,
+  "real_time": 1200.079674243927,
+  "local_cpu_time": 1179.5874325210007,
+  "local_real_time": 1179.66468667984
+}

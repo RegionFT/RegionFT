@@ -1,0 +1,8 @@
+/home/malei/anaconda3/envs/tf13/bin/python: can't open file 'config_str=0-60|true|1|1|1|1;': [Errno 2] No such file or directory
+usage: multitask_train.py [-h] [--batch_size BATCH_SIZE]
+                          [--val_batch_size VAL_BATCH_SIZE] [--epochs EPOCHS]
+                          [--lr LR] [--lr2 LR2] [--momentum MOMENTUM]
+                          [--log_interval LOG_INTERVAL] [--log_dir LOG_DIR]
+                          [--config_str CONFIG_STR] [--is_mask_gender]
+                          [--is_mask_age] [--is_mask_race]
+multitask_train.py: error: unrecognized arguments: config_str=0-60|true|10|-1|-1|-1;

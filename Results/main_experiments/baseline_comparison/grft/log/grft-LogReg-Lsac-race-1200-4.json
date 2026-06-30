@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Lsac-race-1200",
+  "repeat": 4,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 22379946,
+  "no_test": 44219754,
+  "prec": 0.5061074288201604,
+  "cpu_time": 1260.9322954079998,
+  "real_time": 1261.216208934784
+}

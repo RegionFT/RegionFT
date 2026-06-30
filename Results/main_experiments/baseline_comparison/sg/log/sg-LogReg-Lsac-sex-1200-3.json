@@ -1,0 +1,14 @@
+{
+  "label": "sg-LogReg-Lsac-sex-1200",
+  "repeat": 3,
+  "method": "sg",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 381,
+  "no_test": 12312,
+  "prec": 0.03094541910331384,
+  "cpu_time": 1200.1681504979997,
+  "real_time": 1200.1563835144043
+}

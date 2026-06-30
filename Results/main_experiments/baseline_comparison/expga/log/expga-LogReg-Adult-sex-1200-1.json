@@ -1,0 +1,16 @@
+{
+  "label": "expga-LogReg-Adult-sex-1200",
+  "repeat": 1,
+  "method": "expga",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 656373,
+  "no_test": 3975092,
+  "prec": 0.16512146133976272,
+  "cpu_time": 1200.0143585310002,
+  "real_time": 1200.084528684616,
+  "local_cpu_time": 1187.763043514,
+  "local_real_time": 1187.8302342891693
+}

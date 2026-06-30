@@ -1,0 +1,14 @@
+{
+  "label": "grft-GBDT-Lsac-sex-1200",
+  "repeat": 4,
+  "method": "grft",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 3061578,
+  "no_test": 31827700,
+  "prec": 0.09619224763335082,
+  "cpu_time": 1207.209208002,
+  "real_time": 1207.3806703090668
+}

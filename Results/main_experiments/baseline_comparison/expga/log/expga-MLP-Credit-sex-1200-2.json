@@ -1,0 +1,16 @@
+{
+  "label": "expga-MLP-Credit-sex-1200",
+  "repeat": 2,
+  "method": "expga",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 893346,
+  "no_test": 2887859,
+  "prec": 0.3093454354939074,
+  "cpu_time": 1200.0145089730004,
+  "real_time": 1200.0708298683167,
+  "local_cpu_time": 1192.941346211,
+  "local_real_time": 1192.99680352211
+}

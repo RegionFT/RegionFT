@@ -1,0 +1,14 @@
+{
+  "label": "grft-MLP-Credit-sex-1200",
+  "repeat": 0,
+  "method": "grft",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 3631712,
+  "no_test": 28907700,
+  "prec": 0.12563130238656137,
+  "cpu_time": 1218.2183227729997,
+  "real_time": 1218.64905667305
+}

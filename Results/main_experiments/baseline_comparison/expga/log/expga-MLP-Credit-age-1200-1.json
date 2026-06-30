@@ -1,0 +1,16 @@
+{
+  "label": "expga-MLP-Credit-age-1200",
+  "repeat": 1,
+  "method": "expga",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 408422,
+  "no_test": 711861,
+  "prec": 0.5737384124147832,
+  "cpu_time": 1200.0523248119998,
+  "real_time": 1200.0649750232697,
+  "local_cpu_time": 1184.19979088,
+  "local_real_time": 1184.2090337276459
+}

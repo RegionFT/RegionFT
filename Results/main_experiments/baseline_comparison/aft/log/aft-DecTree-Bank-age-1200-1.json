@@ -1,0 +1,14 @@
+{
+  "label": "aft-DecTree-Bank-age-1200",
+  "repeat": 1,
+  "method": "aft",
+  "model": "DecTree",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 2380281,
+  "no_test": 2575068,
+  "prec": 0.924356560681116,
+  "cpu_time": 1203.085893732,
+  "real_time": 1203.1587133407593
+}

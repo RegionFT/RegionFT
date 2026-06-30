@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Credit-age-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 400617,
+  "no_test": 1396416,
+  "prec": 0.2868894369586141,
+  "cpu_time": 1200.2181773260002,
+  "real_time": 1200.261222600937
+}

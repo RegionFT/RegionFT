@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Bank-age-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3691,
+  "no_test": 6793,
+  "prec": 0.5433534520830267,
+  "cpu_time": 1200.0664917149998,
+  "real_time": 1200.0692729949951
+}

@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Lsac-sex-1200",
+  "repeat": 2,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 1574,
+  "no_test": 7935,
+  "prec": 0.19836168872085697,
+  "cpu_time": 1200.009473401,
+  "real_time": 1200.036366701126
+}

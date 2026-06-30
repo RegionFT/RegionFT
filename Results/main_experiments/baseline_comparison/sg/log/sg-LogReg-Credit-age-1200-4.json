@@ -1,0 +1,14 @@
+{
+  "label": "sg-LogReg-Credit-age-1200",
+  "repeat": 4,
+  "method": "sg",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 2481,
+  "no_test": 10060,
+  "prec": 0.24662027833001987,
+  "cpu_time": 1200.023565476,
+  "real_time": 1200.0502390861511
+}

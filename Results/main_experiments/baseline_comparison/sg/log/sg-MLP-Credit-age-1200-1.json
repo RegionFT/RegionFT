@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Credit-age-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 4555,
+  "no_test": 7351,
+  "prec": 0.6196435859066793,
+  "cpu_time": 1200.1727284919998,
+  "real_time": 1200.1894209384918
+}

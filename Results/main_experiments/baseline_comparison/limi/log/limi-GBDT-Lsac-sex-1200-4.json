@@ -1,0 +1,14 @@
+{
+  "label": "limi-GBDT-Lsac-sex-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2943,
+  "no_test": 500000,
+  "prec": 0.005886,
+  "cpu_time": null,
+  "real_time": 542.9190587997437
+}

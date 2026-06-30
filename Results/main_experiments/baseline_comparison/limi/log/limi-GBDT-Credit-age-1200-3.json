@@ -1,0 +1,14 @@
+{
+  "label": "limi-GBDT-Credit-age-1200",
+  "repeat": 3,
+  "method": "limi",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 146881,
+  "no_test": 404883,
+  "prec": 0.3627739371620937,
+  "cpu_time": null,
+  "real_time": 1388.540734052658
+}

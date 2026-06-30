@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Adult-race-1200",
+  "repeat": 1,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 294714,
+  "no_test": 1728300,
+  "prec": 0.1705224787363305,
+  "cpu_time": 1200.4624976569999,
+  "real_time": 1200.5553317070007
+}

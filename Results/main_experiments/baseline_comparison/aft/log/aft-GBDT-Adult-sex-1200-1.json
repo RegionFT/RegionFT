@@ -1,0 +1,14 @@
+{
+  "label": "aft-GBDT-Adult-sex-1200",
+  "repeat": 1,
+  "method": "aft",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2217991,
+  "no_test": 2972712,
+  "prec": 0.7461170136898563,
+  "cpu_time": 1201.773180315,
+  "real_time": 1201.8332109451294
+}

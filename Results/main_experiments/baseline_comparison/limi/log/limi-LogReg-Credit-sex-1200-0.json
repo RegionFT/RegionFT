@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Credit-sex-1200",
+  "repeat": 0,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 86688,
+  "no_test": 404921,
+  "prec": 0.21408620446951382,
+  "cpu_time": null,
+  "real_time": 357.08211517333984
+}

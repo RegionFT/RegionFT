@@ -1,0 +1,14 @@
+{
+  "label": "grft-DecTree-Bank-age-1200",
+  "repeat": 2,
+  "method": "grft",
+  "model": "DecTree",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3127636,
+  "no_test": 18875724,
+  "prec": 0.16569621382469885,
+  "cpu_time": 1232.8636743700001,
+  "real_time": 1233.3828110694885
+}

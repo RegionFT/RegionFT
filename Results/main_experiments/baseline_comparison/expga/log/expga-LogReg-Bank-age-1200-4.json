@@ -1,0 +1,16 @@
+{
+  "label": "expga-LogReg-Bank-age-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "LogReg",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 261957,
+  "no_test": 640707,
+  "prec": 0.4088561542171383,
+  "cpu_time": 1200.0194625190006,
+  "real_time": 1200.1229226589203,
+  "local_cpu_time": 1195.403109291,
+  "local_real_time": 1195.5053737163544
+}

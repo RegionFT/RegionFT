@@ -1,0 +1,14 @@
+{
+  "label": "sg-GBDT-Credit-sex-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 1841,
+  "no_test": 8676,
+  "prec": 0.21219455970493314,
+  "cpu_time": 1200.0096754729998,
+  "real_time": 1199.9986102581024
+}

@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p5-MLP-Credit-age-d5000000",
+  "repeat": 4,
+  "method": "regionft_a0p5",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 1304560,
+  "no_test": 7193464,
+  "prec": 0.18135351758207172,
+  "cpu_time": 349.598622297,
+  "real_time": 349.60493206977844,
+  "partition": {
+    "cpu_time": 146.07630246600002,
+    "real_time": 146.08158445358276,
+    "no_test": 2193464,
+    "no_disc": 279041,
+    "n_regions": 1020
+  },
+  "generation": {
+    "cpu_time": 203.522319831,
+    "real_time": 203.52334761619568,
+    "no_test": 5000000,
+    "no_disc": 1025519
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.5,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 4
+  }
+}

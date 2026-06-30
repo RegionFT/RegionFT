@@ -1,0 +1,16 @@
+{
+  "label": "expga-LogReg-Lsac-race-1200",
+  "repeat": 3,
+  "method": "expga",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 734498,
+  "no_test": 1990807,
+  "prec": 0.3689448550261276,
+  "cpu_time": 1200.0096423489995,
+  "real_time": 1200.0554535388947,
+  "local_cpu_time": 1181.4605788630006,
+  "local_real_time": 1181.5042147636414
+}

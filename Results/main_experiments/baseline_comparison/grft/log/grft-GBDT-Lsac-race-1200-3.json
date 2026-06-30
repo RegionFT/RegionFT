@@ -1,0 +1,14 @@
+{
+  "label": "grft-GBDT-Lsac-race-1200",
+  "repeat": 3,
+  "method": "grft",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 8553692,
+  "no_test": 37004412,
+  "prec": 0.23115330139552007,
+  "cpu_time": 1218.3941969909993,
+  "real_time": 1218.6423025131226
+}

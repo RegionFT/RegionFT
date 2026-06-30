@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a10-GBDT-Credit-age-d5000000",
+  "repeat": 0,
+  "method": "regionft_a10",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 3527560,
+  "no_test": 7205496,
+  "prec": 0.4895651874624592,
+  "cpu_time": 396.83842225100034,
+  "real_time": 396.8431978225708,
+  "partition": {
+    "cpu_time": 170.13606310900013,
+    "real_time": 170.13981366157532,
+    "no_test": 2205496,
+    "no_disc": 380164,
+    "n_regions": 1015
+  },
+  "generation": {
+    "cpu_time": 226.7023591420002,
+    "real_time": 226.70338416099548,
+    "no_test": 5000000,
+    "no_disc": 3147396
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 10.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

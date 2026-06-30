@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Adult-race-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 50462,
+  "no_test": 408507,
+  "prec": 0.12352787100343446,
+  "cpu_time": null,
+  "real_time": 559.9291808605194
+}

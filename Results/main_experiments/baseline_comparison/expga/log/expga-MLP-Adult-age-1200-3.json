@@ -1,0 +1,16 @@
+{
+  "label": "expga-MLP-Adult-age-1200",
+  "repeat": 3,
+  "method": "expga",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 406604,
+  "no_test": 574622,
+  "prec": 0.7076025630762484,
+  "cpu_time": 1200.0731466049997,
+  "real_time": 1200.086163520813,
+  "local_cpu_time": 1195.9261007569999,
+  "local_real_time": 1195.9380357265472
+}

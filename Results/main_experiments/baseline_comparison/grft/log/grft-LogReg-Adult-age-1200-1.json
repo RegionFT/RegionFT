@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Adult-age-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 8978559,
+  "no_test": 22323743,
+  "prec": 0.40219774076417203,
+  "cpu_time": 1243.7907815629997,
+  "real_time": 1244.2776079177856
+}

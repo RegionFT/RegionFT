@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Lsac-sex-1200",
+  "repeat": 0,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 145109,
+  "no_test": 2612495,
+  "prec": 0.055544221137265336,
+  "cpu_time": 1200.14506423,
+  "real_time": 1200.1862802505493
+}

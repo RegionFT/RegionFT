@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Credit-age-1200",
+  "repeat": 2,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 441768,
+  "no_test": 1458299,
+  "prec": 0.30293376049767573,
+  "cpu_time": 1200.106846498,
+  "real_time": 1200.1489748954773
+}

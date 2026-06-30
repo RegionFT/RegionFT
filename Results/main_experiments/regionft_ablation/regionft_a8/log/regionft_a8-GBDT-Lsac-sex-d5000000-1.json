@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a8-GBDT-Lsac-sex-d5000000",
+  "repeat": 1,
+  "method": "regionft_a8",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 2089072,
+  "no_test": 7019527,
+  "prec": 0.2976086565376841,
+  "cpu_time": 204.5005410549993,
+  "real_time": 204.51435542106628,
+  "partition": {
+    "cpu_time": 114.84041305099981,
+    "real_time": 114.85277104377747,
+    "no_test": 2019527,
+    "no_disc": 113154,
+    "n_regions": 966
+  },
+  "generation": {
+    "cpu_time": 89.66012800399949,
+    "real_time": 89.66158437728882,
+    "no_test": 5000000,
+    "no_disc": 1975918
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 8.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 1
+  }
+}

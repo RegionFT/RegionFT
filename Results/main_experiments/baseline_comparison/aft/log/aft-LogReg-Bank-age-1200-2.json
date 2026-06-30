@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Bank-age-1200",
+  "repeat": 2,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 295631,
+  "no_test": 1543677,
+  "prec": 0.19151091841104065,
+  "cpu_time": 1200.190499449,
+  "real_time": 1200.2181448936462
+}

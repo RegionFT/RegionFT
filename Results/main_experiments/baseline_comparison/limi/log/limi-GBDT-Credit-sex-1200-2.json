@@ -1,0 +1,14 @@
+{
+  "label": "limi-GBDT-Credit-sex-1200",
+  "repeat": 2,
+  "method": "limi",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 44376,
+  "no_test": 415314,
+  "prec": 0.10684927548794407,
+  "cpu_time": null,
+  "real_time": 622.2889432907104
+}

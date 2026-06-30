@@ -1,0 +1,14 @@
+{
+  "label": "aft-GBDT-Adult-age-1200",
+  "repeat": 0,
+  "method": "aft",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 2545370,
+  "no_test": 2598738,
+  "prec": 0.9794638782362823,
+  "cpu_time": 1201.217082105,
+  "real_time": 1201.2929065227509
+}

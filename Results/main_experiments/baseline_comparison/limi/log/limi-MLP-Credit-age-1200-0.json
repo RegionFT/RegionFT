@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Credit-age-1200",
+  "repeat": 0,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 131922,
+  "no_test": 423925,
+  "prec": 0.31119183817892315,
+  "cpu_time": null,
+  "real_time": 776.0029079914093
+}

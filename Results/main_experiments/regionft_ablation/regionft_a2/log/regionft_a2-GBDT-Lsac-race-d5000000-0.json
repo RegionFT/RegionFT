@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a2-GBDT-Lsac-race-d5000000",
+  "repeat": 0,
+  "method": "regionft_a2",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 7200,
+  "no_disc": 2709311,
+  "no_test": 7129263,
+  "prec": 0.3800267994040899,
+  "cpu_time": 260.0965911070007,
+  "real_time": 260.1007921695709,
+  "partition": {
+    "cpu_time": 142.41861559400058,
+    "real_time": 142.42171239852905,
+    "no_test": 2129263,
+    "no_disc": 328571,
+    "n_regions": 993
+  },
+  "generation": {
+    "cpu_time": 117.67797551300009,
+    "real_time": 117.67907977104187,
+    "no_test": 5000000,
+    "no_disc": 2380740
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 2.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

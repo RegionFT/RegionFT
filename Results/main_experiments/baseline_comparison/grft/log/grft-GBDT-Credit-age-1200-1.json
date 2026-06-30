@@ -1,0 +1,14 @@
+{
+  "label": "grft-GBDT-Credit-age-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 2357144,
+  "no_test": 15992744,
+  "prec": 0.14738834061246775,
+  "cpu_time": 1224.38085644,
+  "real_time": 1224.828292131424
+}

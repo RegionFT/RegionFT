@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Adult-age-1200",
+  "repeat": 2,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 141343,
+  "no_test": 296288,
+  "prec": 0.47704598228750406,
+  "cpu_time": null,
+  "real_time": 630.8784444332123
+}

@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a0p25-GBDT-Adult-sex-d5000000",
+  "repeat": 0,
+  "method": "regionft_a0p25",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 424564,
+  "no_test": 6837115,
+  "prec": 0.06209695171135779,
+  "cpu_time": 183.01736732900002,
+  "real_time": 183.02457690238953,
+  "partition": {
+    "cpu_time": 95.93757458099998,
+    "real_time": 95.94314360618591,
+    "no_test": 1837115,
+    "no_disc": 133604,
+    "n_regions": 880
+  },
+  "generation": {
+    "cpu_time": 87.07979274800005,
+    "real_time": 87.08143329620361,
+    "no_test": 5000000,
+    "no_disc": 290960
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 0.25,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

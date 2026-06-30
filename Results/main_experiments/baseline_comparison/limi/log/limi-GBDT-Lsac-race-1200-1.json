@@ -1,0 +1,14 @@
+{
+  "label": "limi-GBDT-Lsac-race-1200",
+  "repeat": 1,
+  "method": "limi",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 14564,
+  "no_test": 500000,
+  "prec": 0.029128,
+  "cpu_time": null,
+  "real_time": 722.3394296169281
+}

@@ -1,0 +1,14 @@
+{
+  "label": "aft-MLP-Lsac-race-1200",
+  "repeat": 1,
+  "method": "aft",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 245634,
+  "no_test": 1762749,
+  "prec": 0.139347122023612,
+  "cpu_time": 1200.7894899980001,
+  "real_time": 1200.837474346161
+}

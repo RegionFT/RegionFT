@@ -1,0 +1,16 @@
+{
+  "label": "expga-DecTree-Lsac-sex-1200",
+  "repeat": 2,
+  "method": "expga",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2158904,
+  "no_test": 2980506,
+  "prec": 0.7243414373264137,
+  "cpu_time": 1200.0117440860004,
+  "real_time": 1200.044974565506,
+  "local_cpu_time": 1194.9681991050002,
+  "local_real_time": 1195.000338792801
+}

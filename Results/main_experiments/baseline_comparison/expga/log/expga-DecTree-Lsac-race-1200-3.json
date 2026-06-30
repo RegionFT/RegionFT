@@ -1,0 +1,16 @@
+{
+  "label": "expga-DecTree-Lsac-race-1200",
+  "repeat": 3,
+  "method": "expga",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 1241340,
+  "no_test": 1668744,
+  "prec": 0.7438768319166991,
+  "cpu_time": 1200.0227557059998,
+  "real_time": 1200.0837061405182,
+  "local_cpu_time": 1192.756060842,
+  "local_real_time": 1192.8161551952362
+}

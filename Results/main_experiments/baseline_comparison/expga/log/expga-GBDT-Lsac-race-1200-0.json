@@ -1,0 +1,16 @@
+{
+  "label": "expga-GBDT-Lsac-race-1200",
+  "repeat": 0,
+  "method": "expga",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 453141,
+  "no_test": 750374,
+  "prec": 0.6038868617516066,
+  "cpu_time": 1200.0041563410005,
+  "real_time": 1200.074814081192,
+  "local_cpu_time": 1174.0735667670006,
+  "local_real_time": 1174.142347574234
+}

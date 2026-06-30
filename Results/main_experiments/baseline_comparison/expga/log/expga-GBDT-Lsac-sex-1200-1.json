@@ -1,0 +1,16 @@
+{
+  "label": "expga-GBDT-Lsac-sex-1200",
+  "repeat": 1,
+  "method": "expga",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 506959,
+  "no_test": 1293785,
+  "prec": 0.39184176659955094,
+  "cpu_time": 1200.01226486,
+  "real_time": 1200.0627212524414,
+  "local_cpu_time": 1184.3236806199993,
+  "local_real_time": 1184.3728642463684
+}

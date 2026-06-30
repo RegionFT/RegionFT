@@ -1,0 +1,41 @@
+{
+  "label": "regionft_d8-GBDT-Bank-age-d5000000",
+  "repeat": 2,
+  "method": "regionft_d8",
+  "model": "GBDT",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 2477147,
+  "no_test": 5566736,
+  "prec": 0.4449909246639323,
+  "cpu_time": 331.844851637,
+  "real_time": 331.8430452346802,
+  "partition": {
+    "cpu_time": 57.663887751999994,
+    "real_time": 57.66340613365173,
+    "no_test": 566736,
+    "no_disc": 107279,
+    "n_regions": 246
+  },
+  "generation": {
+    "cpu_time": 274.180963885,
+    "real_time": 274.17963910102844,
+    "no_test": 5000000,
+    "no_disc": 2369868
+  },
+  "config": {
+    "max_depth": 8,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 2
+  }
+}

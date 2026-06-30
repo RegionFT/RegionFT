@@ -1,0 +1,14 @@
+{
+  "label": "grft-DecTree-Lsac-sex-1200",
+  "repeat": 4,
+  "method": "grft",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 17030262,
+  "no_test": 55495400,
+  "prec": 0.30687700241821847,
+  "cpu_time": 1237.7432890310001,
+  "real_time": 1238.0148923397064
+}

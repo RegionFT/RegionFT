@@ -1,0 +1,16 @@
+{
+  "label": "expga-MLP-Bank-age-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "MLP",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 316108,
+  "no_test": 477962,
+  "prec": 0.6613663847753587,
+  "cpu_time": 1200.0700816749995,
+  "real_time": 1200.120789051056,
+  "local_cpu_time": 1195.0155043639998,
+  "local_real_time": 1195.06520819664
+}

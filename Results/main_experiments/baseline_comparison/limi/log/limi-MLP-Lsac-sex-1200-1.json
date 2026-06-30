@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Lsac-sex-1200",
+  "repeat": 1,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 54316,
+  "no_test": 500000,
+  "prec": 0.108632,
+  "cpu_time": null,
+  "real_time": 315.98747086524963
+}

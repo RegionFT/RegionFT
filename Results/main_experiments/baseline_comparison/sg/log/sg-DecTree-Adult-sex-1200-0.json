@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Adult-sex-1200",
+  "repeat": 0,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2157,
+  "no_test": 7262,
+  "prec": 0.2970256127788488,
+  "cpu_time": 1200.0423207299996,
+  "real_time": 1200.0450296401978
+}

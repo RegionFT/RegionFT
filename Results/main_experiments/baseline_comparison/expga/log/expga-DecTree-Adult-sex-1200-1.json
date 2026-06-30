@@ -1,0 +1,16 @@
+{
+  "label": "expga-DecTree-Adult-sex-1200",
+  "repeat": 1,
+  "method": "expga",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2186015,
+  "no_test": 3267604,
+  "prec": 0.6689963043257384,
+  "cpu_time": 1200.015530178,
+  "real_time": 1200.0432374477386,
+  "local_cpu_time": 1191.873469448,
+  "local_real_time": 1191.8990972042084
+}

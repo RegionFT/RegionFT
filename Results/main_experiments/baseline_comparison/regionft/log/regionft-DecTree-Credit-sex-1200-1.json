@@ -1,0 +1,38 @@
+{
+  "label": "regionft-DecTree-Credit-sex-1200",
+  "repeat": 1,
+  "method": "regionft",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 62179709,
+  "no_test": 62265242,
+  "prec": 0.9986263122529901,
+  "cpu_time": 1200.000255817,
+  "real_time": 1200.0233521461487,
+  "partition": {
+    "cpu_time": 8.313653706,
+    "real_time": 8.31371283531189,
+    "no_test": 60826,
+    "no_disc": 13857,
+    "n_regions": 23
+  },
+  "generation": {
+    "cpu_time": 1191.686602111,
+    "real_time": 1191.7096393108368,
+    "no_test": 62204416,
+    "no_disc": 62165852
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512
+  }
+}

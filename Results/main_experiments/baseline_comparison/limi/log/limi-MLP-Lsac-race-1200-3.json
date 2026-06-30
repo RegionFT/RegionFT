@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Lsac-race-1200",
+  "repeat": 3,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 103888,
+  "no_test": 500000,
+  "prec": 0.207776,
+  "cpu_time": null,
+  "real_time": 387.8436951637268
+}

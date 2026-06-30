@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Adult-race-1200",
+  "repeat": 4,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 237351,
+  "no_test": 1833651,
+  "prec": 0.1294417530926005,
+  "cpu_time": 1200.0132604320002,
+  "real_time": 1200.0362153053284
+}

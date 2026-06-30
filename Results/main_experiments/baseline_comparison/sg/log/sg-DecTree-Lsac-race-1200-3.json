@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Lsac-race-1200",
+  "repeat": 3,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 3742,
+  "no_test": 7092,
+  "prec": 0.5276367738296672,
+  "cpu_time": 1200.2248747119993,
+  "real_time": 1200.2272119522095
+}

@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Credit-sex-1200",
+  "repeat": 4,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 3609057,
+  "no_test": 28621800,
+  "prec": 0.1260946900614217,
+  "cpu_time": 1213.052472334,
+  "real_time": 1213.487223625183
+}

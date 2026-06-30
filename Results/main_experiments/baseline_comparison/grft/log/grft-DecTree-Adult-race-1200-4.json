@@ -1,0 +1,14 @@
+{
+  "label": "grft-DecTree-Adult-race-1200",
+  "repeat": 4,
+  "method": "grft",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 5170039,
+  "no_test": 28834789,
+  "prec": 0.179298658991401,
+  "cpu_time": 1217.649915088,
+  "real_time": 1218.2077231407166
+}

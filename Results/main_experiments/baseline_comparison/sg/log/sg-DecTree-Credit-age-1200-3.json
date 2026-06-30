@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Credit-age-1200",
+  "repeat": 3,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 7039,
+  "no_test": 11419,
+  "prec": 0.6164287590857344,
+  "cpu_time": 1200.1300999220002,
+  "real_time": 1200.1272571086884
+}

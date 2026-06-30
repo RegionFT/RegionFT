@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Lsac-sex-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 67976,
+  "no_test": 500000,
+  "prec": 0.135952,
+  "cpu_time": null,
+  "real_time": 338.1497619152069
+}

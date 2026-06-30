@@ -1,0 +1,16 @@
+{
+  "label": "expga-GBDT-Adult-race-1200",
+  "repeat": 3,
+  "method": "expga",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 195281,
+  "no_test": 430978,
+  "prec": 0.45311129570418907,
+  "cpu_time": 1200.0197595000004,
+  "real_time": 1200.096727848053,
+  "local_cpu_time": 1170.3050615139996,
+  "local_real_time": 1170.3806948661804
+}

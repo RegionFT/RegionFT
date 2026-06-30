@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Adult-sex-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 20041,
+  "no_test": 440458,
+  "prec": 0.04550036552860886,
+  "cpu_time": null,
+  "real_time": 357.38089632987976
+}

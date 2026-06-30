@@ -1,0 +1,14 @@
+{
+  "label": "grft-MLP-Bank-age-1200",
+  "repeat": 3,
+  "method": "grft",
+  "model": "MLP",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3345323,
+  "no_test": 14783920,
+  "prec": 0.22628118929214985,
+  "cpu_time": 1227.614408297,
+  "real_time": 1228.1174218654633
+}

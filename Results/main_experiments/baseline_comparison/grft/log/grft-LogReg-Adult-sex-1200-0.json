@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Adult-sex-1200",
+  "repeat": 0,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 8807090,
+  "no_test": 38284778,
+  "prec": 0.23004155855363717,
+  "cpu_time": 1230.707542138,
+  "real_time": 1231.2185072898865
+}

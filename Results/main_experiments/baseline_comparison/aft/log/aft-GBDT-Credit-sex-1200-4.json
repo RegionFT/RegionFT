@@ -1,0 +1,14 @@
+{
+  "label": "aft-GBDT-Credit-sex-1200",
+  "repeat": 4,
+  "method": "aft",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 124819,
+  "no_test": 1786868,
+  "prec": 0.06985350904487629,
+  "cpu_time": 1200.054730948,
+  "real_time": 1200.080308675766
+}

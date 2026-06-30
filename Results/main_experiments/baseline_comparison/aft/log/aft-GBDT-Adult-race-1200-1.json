@@ -1,0 +1,14 @@
+{
+  "label": "aft-GBDT-Adult-race-1200",
+  "repeat": 1,
+  "method": "aft",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 1247626,
+  "no_test": 1923609,
+  "prec": 0.648586069206372,
+  "cpu_time": 1200.4652805120002,
+  "real_time": 1200.4982945919037
+}

@@ -1,0 +1,14 @@
+{
+  "label": "sg-LogReg-Adult-sex-1200",
+  "repeat": 3,
+  "method": "sg",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 139,
+  "no_test": 5628,
+  "prec": 0.024697938877043354,
+  "cpu_time": 1200.1500862909998,
+  "real_time": 1200.1459381580353
+}

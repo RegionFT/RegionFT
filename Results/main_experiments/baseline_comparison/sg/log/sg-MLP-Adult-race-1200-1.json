@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Adult-race-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 2784,
+  "no_test": 7080,
+  "prec": 0.39322033898305087,
+  "cpu_time": 1200.1262042049998,
+  "real_time": 1200.1242680549622
+}

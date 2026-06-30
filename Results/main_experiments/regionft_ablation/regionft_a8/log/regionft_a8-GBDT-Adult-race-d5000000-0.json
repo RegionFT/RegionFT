@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a8-GBDT-Adult-race-d5000000",
+  "repeat": 0,
+  "method": "regionft_a8",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 7200,
+  "no_disc": 1909041,
+  "no_test": 6782033,
+  "prec": 0.2814850650240127,
+  "cpu_time": 241.47017166199998,
+  "real_time": 241.47795033454895,
+  "partition": {
+    "cpu_time": 110.36878365799998,
+    "real_time": 110.37663841247559,
+    "no_test": 1782033,
+    "no_disc": 80170,
+    "n_regions": 853
+  },
+  "generation": {
+    "cpu_time": 131.101388004,
+    "real_time": 131.10131192207336,
+    "no_test": 5000000,
+    "no_disc": 1828871
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 8.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

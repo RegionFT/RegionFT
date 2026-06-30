@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Credit-sex-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2507,
+  "no_test": 8917,
+  "prec": 0.28114836828529777,
+  "cpu_time": 1200.207645865,
+  "real_time": 1200.2166678905487
+}

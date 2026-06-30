@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a10-MLP-Lsac-race-d5000000",
+  "repeat": 0,
+  "method": "regionft_a10",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 7200,
+  "no_disc": 1672102,
+  "no_test": 7084084,
+  "prec": 0.2360364445142096,
+  "cpu_time": 210.11977534400012,
+  "real_time": 210.13591408729553,
+  "partition": {
+    "cpu_time": 117.73624863500027,
+    "real_time": 117.7520637512207,
+    "no_test": 2084084,
+    "no_disc": 124428,
+    "n_regions": 972
+  },
+  "generation": {
+    "cpu_time": 92.38352670899985,
+    "real_time": 92.38385033607483,
+    "no_test": 5000000,
+    "no_disc": 1547674
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 10.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

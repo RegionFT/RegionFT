@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Adult-age-1200",
+  "repeat": 2,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 158401,
+  "no_test": 318505,
+  "prec": 0.49732657258127816,
+  "cpu_time": null,
+  "real_time": 538.1192333698273
+}

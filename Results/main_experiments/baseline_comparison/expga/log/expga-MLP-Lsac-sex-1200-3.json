@@ -1,0 +1,16 @@
+{
+  "label": "expga-MLP-Lsac-sex-1200",
+  "repeat": 3,
+  "method": "expga",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 578813,
+  "no_test": 2500725,
+  "prec": 0.2314580771576243,
+  "cpu_time": 1200.0100944569995,
+  "real_time": 1200.0589509010315,
+  "local_cpu_time": 1188.1510562490002,
+  "local_real_time": 1188.198008775711
+}

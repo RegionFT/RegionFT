@@ -1,0 +1,14 @@
+{
+  "label": "grft-DecTree-Credit-age-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 1444674,
+  "no_test": 15679311,
+  "prec": 0.0921388701327501,
+  "cpu_time": 1204.4221030370002,
+  "real_time": 1204.892373085022
+}

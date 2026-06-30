@@ -1,0 +1,16 @@
+{
+  "label": "expga-MLP-Lsac-race-1200",
+  "repeat": 0,
+  "method": "expga",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 504771,
+  "no_test": 1488286,
+  "prec": 0.33916263406361413,
+  "cpu_time": 1200.008648725,
+  "real_time": 1200.034497499466,
+  "local_cpu_time": 1187.3635259129996,
+  "local_real_time": 1187.3873853683472
+}

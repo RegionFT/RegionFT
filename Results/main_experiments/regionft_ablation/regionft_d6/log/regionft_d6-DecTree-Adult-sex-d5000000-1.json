@@ -1,0 +1,41 @@
+{
+  "label": "regionft_d6-DecTree-Adult-sex-d5000000",
+  "repeat": 1,
+  "method": "regionft_d6",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 1560100,
+  "no_test": 5052618,
+  "prec": 0.3087706214877119,
+  "cpu_time": 82.480051131,
+  "real_time": 82.48437595367432,
+  "partition": {
+    "cpu_time": 2.9115922020000085,
+    "real_time": 2.9119720458984375,
+    "no_test": 52618,
+    "no_disc": 5937,
+    "n_regions": 22
+  },
+  "generation": {
+    "cpu_time": 79.56845892899999,
+    "real_time": 79.57240390777588,
+    "no_test": 5000000,
+    "no_disc": 1554163
+  },
+  "config": {
+    "max_depth": 6,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 1
+  }
+}

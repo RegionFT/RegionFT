@@ -1,0 +1,16 @@
+{
+  "label": "expga-MLP-Adult-sex-1200",
+  "repeat": 2,
+  "method": "expga",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 861393,
+  "no_test": 2894681,
+  "prec": 0.29757786782032286,
+  "cpu_time": 1200.0025621140003,
+  "real_time": 1200.040076494217,
+  "local_cpu_time": 1178.9579655890002,
+  "local_real_time": 1178.992847442627
+}

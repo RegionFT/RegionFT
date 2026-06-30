@@ -1,0 +1,38 @@
+{
+  "label": "regionft-DecTree-Lsac-race-1200",
+  "repeat": 1,
+  "method": "regionft",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 45617212,
+  "no_test": 55110815,
+  "prec": 0.8277361167676435,
+  "cpu_time": 1200.008845371,
+  "real_time": 1200.0293908119202,
+  "partition": {
+    "cpu_time": 51.40500947600003,
+    "real_time": 51.41310119628906,
+    "no_test": 831647,
+    "no_disc": 126101,
+    "n_regions": 383
+  },
+  "generation": {
+    "cpu_time": 1148.603835895,
+    "real_time": 1148.616289615631,
+    "no_test": 54279168,
+    "no_disc": 45491111
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512
+  }
+}

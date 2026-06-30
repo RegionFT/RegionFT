@@ -1,0 +1,3 @@
+census_gan.pth,12593.36,1255.92
+credit_gan.pth,200.89,20.90
+bank_gan.pth,19296.13,1927.85

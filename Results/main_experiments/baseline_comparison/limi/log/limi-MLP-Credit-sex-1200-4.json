@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Credit-sex-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 65009,
+  "no_test": 425840,
+  "prec": 0.15266062370843508,
+  "cpu_time": null,
+  "real_time": 418.9282765388489
+}

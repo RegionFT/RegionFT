@@ -1,0 +1,14 @@
+{
+  "label": "grft-MLP-Lsac-race-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 19074158,
+  "no_test": 43119922,
+  "prec": 0.44235140314029325,
+  "cpu_time": 1249.0623665039998,
+  "real_time": 1249.383240222931
+}

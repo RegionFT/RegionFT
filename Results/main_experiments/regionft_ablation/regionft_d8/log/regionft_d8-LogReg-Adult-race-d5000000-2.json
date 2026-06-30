@@ -1,0 +1,41 @@
+{
+  "label": "regionft_d8-LogReg-Adult-race-d5000000",
+  "repeat": 2,
+  "method": "regionft_d8",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 7200,
+  "no_disc": 311906,
+  "no_test": 5280126,
+  "prec": 0.059071696395123906,
+  "cpu_time": 137.009537905,
+  "real_time": 137.0119867324829,
+  "partition": {
+    "cpu_time": 15.477503978999948,
+    "real_time": 15.478519916534424,
+    "no_test": 280126,
+    "no_disc": 14768,
+    "n_regions": 127
+  },
+  "generation": {
+    "cpu_time": 121.53203392600005,
+    "real_time": 121.53346681594849,
+    "no_test": 5000000,
+    "no_disc": 297138
+  },
+  "config": {
+    "max_depth": 8,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 2
+  }
+}

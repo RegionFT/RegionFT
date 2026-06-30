@@ -1,0 +1,16 @@
+{
+  "label": "expga-GBDT-Credit-age-1200",
+  "repeat": 1,
+  "method": "expga",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 194072,
+  "no_test": 311974,
+  "prec": 0.622077480815709,
+  "cpu_time": 1200.038763338,
+  "real_time": 1200.0471074581146,
+  "local_cpu_time": 1196.4160734529996,
+  "local_real_time": 1196.4236197471619
+}

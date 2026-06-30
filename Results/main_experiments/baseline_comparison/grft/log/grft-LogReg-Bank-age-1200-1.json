@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Bank-age-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3936826,
+  "no_test": 18659017,
+  "prec": 0.21098785643423767,
+  "cpu_time": 1219.374552434,
+  "real_time": 1219.8120760917664
+}

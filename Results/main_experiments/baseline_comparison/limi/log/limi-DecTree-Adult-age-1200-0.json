@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Adult-age-1200",
+  "repeat": 0,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 232707,
+  "no_test": 299000,
+  "prec": 0.7782842809364549,
+  "cpu_time": null,
+  "real_time": 591.5524821281433
+}

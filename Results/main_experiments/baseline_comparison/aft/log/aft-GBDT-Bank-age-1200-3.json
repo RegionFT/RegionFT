@@ -1,0 +1,14 @@
+{
+  "label": "aft-GBDT-Bank-age-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "GBDT",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3199236,
+  "no_test": 3232390,
+  "prec": 0.9897431931171672,
+  "cpu_time": 1204.202612794,
+  "real_time": 1204.3282942771912
+}

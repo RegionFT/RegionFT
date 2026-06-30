@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Bank-age-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 9801,
+  "no_test": 500000,
+  "prec": 0.019602,
+  "cpu_time": null,
+  "real_time": 672.8364298343658
+}

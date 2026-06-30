@@ -1,0 +1,14 @@
+{
+  "label": "grft-DecTree-Credit-sex-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2579359,
+  "no_test": 25783450,
+  "prec": 0.10003932755313971,
+  "cpu_time": 1207.818922138,
+  "real_time": 1208.3412780761719
+}

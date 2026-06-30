@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Lsac-race-1200",
+  "repeat": 1,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 100557,
+  "no_test": 500000,
+  "prec": 0.201114,
+  "cpu_time": null,
+  "real_time": 387.70518922805786
+}

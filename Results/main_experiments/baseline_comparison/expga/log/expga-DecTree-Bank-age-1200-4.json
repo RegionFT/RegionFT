@@ -1,0 +1,16 @@
+{
+  "label": "expga-DecTree-Bank-age-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "DecTree",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 426227,
+  "no_test": 556492,
+  "prec": 0.7659175693451119,
+  "cpu_time": 1200.0649022110001,
+  "real_time": 1200.1061828136444,
+  "local_cpu_time": 1197.3181862829997,
+  "local_real_time": 1197.3589487075806
+}

@@ -1,0 +1,14 @@
+{
+  "label": "limi-LogReg-Lsac-race-1200",
+  "repeat": 3,
+  "method": "limi",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 57358,
+  "no_test": 500000,
+  "prec": 0.114716,
+  "cpu_time": null,
+  "real_time": 301.64627480506897
+}

@@ -1,0 +1,14 @@
+{
+  "label": "aft-LogReg-Lsac-sex-1200",
+  "repeat": 1,
+  "method": "aft",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 201655,
+  "no_test": 2227578,
+  "prec": 0.09052657190904202,
+  "cpu_time": 1202.338863214,
+  "real_time": 1202.368643283844
+}

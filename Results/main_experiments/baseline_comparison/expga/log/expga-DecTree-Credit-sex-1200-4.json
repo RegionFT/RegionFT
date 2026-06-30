@@ -1,0 +1,16 @@
+{
+  "label": "expga-DecTree-Credit-sex-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 2248343,
+  "no_test": 3083842,
+  "prec": 0.729072047141196,
+  "cpu_time": 1201.5497359339997,
+  "real_time": 1201.6083147525787,
+  "local_cpu_time": 1195.1600063419996,
+  "local_real_time": 1195.2179024219513
+}

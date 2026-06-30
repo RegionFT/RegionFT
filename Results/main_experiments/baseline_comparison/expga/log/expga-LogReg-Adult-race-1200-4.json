@@ -1,0 +1,16 @@
+{
+  "label": "expga-LogReg-Adult-race-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 168683,
+  "no_test": 1136943,
+  "prec": 0.14836539738579682,
+  "cpu_time": 1200.0059651279998,
+  "real_time": 1200.101977109909,
+  "local_cpu_time": 1176.3262929009998,
+  "local_real_time": 1176.4170942306519
+}

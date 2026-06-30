@@ -1,0 +1,14 @@
+{
+  "label": "grft-GBDT-Bank-age-1200",
+  "repeat": 4,
+  "method": "grft",
+  "model": "GBDT",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3447569,
+  "no_test": 16319464,
+  "prec": 0.21125503876843013,
+  "cpu_time": 1220.436128786,
+  "real_time": 1220.9489560127258
+}

@@ -1,0 +1,14 @@
+{
+  "label": "sg-GBDT-Adult-sex-1200",
+  "repeat": 2,
+  "method": "sg",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 818,
+  "no_test": 7040,
+  "prec": 0.11619318181818182,
+  "cpu_time": 1200.1540228129998,
+  "real_time": 1200.1604545116425
+}

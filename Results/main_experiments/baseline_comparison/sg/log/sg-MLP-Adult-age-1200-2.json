@@ -1,0 +1,14 @@
+{
+  "label": "sg-MLP-Adult-age-1200",
+  "repeat": 2,
+  "method": "sg",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 5913,
+  "no_test": 7419,
+  "prec": 0.7970076829761423,
+  "cpu_time": 1200.1034461069999,
+  "real_time": 1200.0973901748657
+}

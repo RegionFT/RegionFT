@@ -1,0 +1,14 @@
+{
+  "label": "grft-DecTree-Lsac-race-1200",
+  "repeat": 3,
+  "method": "grft",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 18083348,
+  "no_test": 46445451,
+  "prec": 0.3893459447729337,
+  "cpu_time": 1248.887152445,
+  "real_time": 1249.157548904419
+}

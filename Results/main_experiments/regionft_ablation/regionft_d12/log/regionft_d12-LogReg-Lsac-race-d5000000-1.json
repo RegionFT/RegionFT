@@ -1,0 +1,41 @@
+{
+  "label": "regionft_d12-LogReg-Lsac-race-d5000000",
+  "repeat": 1,
+  "method": "regionft_d12",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 7200,
+  "no_disc": 1974300,
+  "no_test": 12784924,
+  "prec": 0.15442407010006473,
+  "cpu_time": 493.3605158539999,
+  "real_time": 493.3654828071594,
+  "partition": {
+    "cpu_time": 401.11862281899994,
+    "real_time": 401.12258768081665,
+    "no_test": 7784924,
+    "no_disc": 1062824,
+    "n_regions": 3793
+  },
+  "generation": {
+    "cpu_time": 92.24189303499998,
+    "real_time": 92.24289512634277,
+    "no_test": 5000000,
+    "no_disc": 911476
+  },
+  "config": {
+    "max_depth": 12,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 1.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 1
+  }
+}

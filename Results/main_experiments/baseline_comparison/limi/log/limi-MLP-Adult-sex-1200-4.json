@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Adult-sex-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 44766,
+  "no_test": 400363,
+  "prec": 0.11181352922223083,
+  "cpu_time": null,
+  "real_time": 374.2702651023865
+}

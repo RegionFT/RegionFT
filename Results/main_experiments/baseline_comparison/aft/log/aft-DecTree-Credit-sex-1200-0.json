@@ -1,0 +1,14 @@
+{
+  "label": "aft-DecTree-Credit-sex-1200",
+  "repeat": 0,
+  "method": "aft",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 5589083,
+  "no_test": 6245552,
+  "prec": 0.8948901554258134,
+  "cpu_time": 1200.019065324,
+  "real_time": 1200.0470526218414
+}

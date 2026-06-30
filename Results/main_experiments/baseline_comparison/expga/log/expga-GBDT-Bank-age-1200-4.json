@@ -1,0 +1,16 @@
+{
+  "label": "expga-GBDT-Bank-age-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "GBDT",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 206478,
+  "no_test": 258101,
+  "prec": 0.7999891515337019,
+  "cpu_time": 1200.1647722160005,
+  "real_time": 1200.2409467697144,
+  "local_cpu_time": 1197.0568173909996,
+  "local_real_time": 1197.1326763629913
+}

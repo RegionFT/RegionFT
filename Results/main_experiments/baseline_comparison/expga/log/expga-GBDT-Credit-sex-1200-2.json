@@ -1,0 +1,16 @@
+{
+  "label": "expga-GBDT-Credit-sex-1200",
+  "repeat": 2,
+  "method": "expga",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 588707,
+  "no_test": 1417809,
+  "prec": 0.41522306601241776,
+  "cpu_time": 1200.036407691,
+  "real_time": 1200.0786707401276,
+  "local_cpu_time": 1181.653553521,
+  "local_real_time": 1181.692713022232
+}

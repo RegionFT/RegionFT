@@ -1,0 +1,14 @@
+{
+  "label": "aft-DecTree-Adult-race-1200",
+  "repeat": 1,
+  "method": "aft",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 1161109,
+  "no_test": 2617853,
+  "prec": 0.44353483560765256,
+  "cpu_time": 1200.043257568,
+  "real_time": 1200.1036376953125
+}

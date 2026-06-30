@@ -1,0 +1,14 @@
+{
+  "label": "grft-GBDT-Adult-sex-1200",
+  "repeat": 2,
+  "method": "grft",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 5873579,
+  "no_test": 34367241,
+  "prec": 0.17090632908239564,
+  "cpu_time": 1218.398417415,
+  "real_time": 1218.8784432411194
+}

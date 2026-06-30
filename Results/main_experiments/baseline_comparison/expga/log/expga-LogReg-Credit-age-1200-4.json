@@ -1,0 +1,16 @@
+{
+  "label": "expga-LogReg-Credit-age-1200",
+  "repeat": 4,
+  "method": "expga",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 450224,
+  "no_test": 990519,
+  "prec": 0.4545334314637074,
+  "cpu_time": 1200.01422009,
+  "real_time": 1200.0946035385132,
+  "local_cpu_time": 1197.137691468,
+  "local_real_time": 1197.2179889678955
+}

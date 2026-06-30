@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a8-GBDT-Credit-sex-d5000000",
+  "repeat": 0,
+  "method": "regionft_a8",
+  "model": "GBDT",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 1052084,
+  "no_test": 6469429,
+  "prec": 0.1626239348171222,
+  "cpu_time": 150.86491751899985,
+  "real_time": 150.87560319900513,
+  "partition": {
+    "cpu_time": 61.31161114799988,
+    "real_time": 61.32074332237244,
+    "no_test": 1469429,
+    "no_disc": 59456,
+    "n_regions": 696
+  },
+  "generation": {
+    "cpu_time": 89.55330637099996,
+    "real_time": 89.55485987663269,
+    "no_test": 5000000,
+    "no_disc": 992628
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 8.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

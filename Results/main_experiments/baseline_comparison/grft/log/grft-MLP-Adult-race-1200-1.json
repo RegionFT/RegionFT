@@ -1,0 +1,14 @@
+{
+  "label": "grft-MLP-Adult-race-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 6106108,
+  "no_test": 22516450,
+  "prec": 0.2711843119141783,
+  "cpu_time": 1220.768296568,
+  "real_time": 1221.3190083503723
+}

@@ -1,0 +1,16 @@
+{
+  "label": "expga-LogReg-Credit-sex-1200",
+  "repeat": 3,
+  "method": "expga",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 70805,
+  "no_test": 2220838,
+  "prec": 0.03188210936592403,
+  "cpu_time": 1200.0000851149998,
+  "real_time": 1200.1198143959045,
+  "local_cpu_time": 1172.3581292939998,
+  "local_real_time": 1172.4743838310242
+}

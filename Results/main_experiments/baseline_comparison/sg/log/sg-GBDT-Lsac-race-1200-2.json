@@ -1,0 +1,14 @@
+{
+  "label": "sg-GBDT-Lsac-race-1200",
+  "repeat": 2,
+  "method": "sg",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 1002,
+  "no_test": 3432,
+  "prec": 0.291958041958042,
+  "cpu_time": 1200.0827672920004,
+  "real_time": 1200.0797333717346
+}

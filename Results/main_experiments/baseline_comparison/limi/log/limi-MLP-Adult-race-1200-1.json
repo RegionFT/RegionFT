@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Adult-race-1200",
+  "repeat": 1,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 80207,
+  "no_test": 377192,
+  "prec": 0.21264236781267895,
+  "cpu_time": null,
+  "real_time": 554.0894632339478
+}

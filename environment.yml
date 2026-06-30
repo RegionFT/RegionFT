@@ -1,0 +1,9 @@
+name: env_regionft
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pyyaml=5.4.1
+  - pip:
+      - -r requirements.txt

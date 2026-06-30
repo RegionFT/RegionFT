@@ -1,0 +1,14 @@
+{
+  "label": "sg-GBDT-Lsac-sex-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "GBDT",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 257,
+  "no_test": 8689,
+  "prec": 0.029577626884566693,
+  "cpu_time": 1200.073982076,
+  "real_time": 1200.061921596527
+}

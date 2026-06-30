@@ -1,0 +1,14 @@
+{
+  "label": "sg-LogReg-Lsac-race-1200",
+  "repeat": 0,
+  "method": "sg",
+  "model": "LogReg",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 4989,
+  "no_test": 13837,
+  "prec": 0.36055503360555036,
+  "cpu_time": 1200.1257157139999,
+  "real_time": 1200.1326110363007
+}

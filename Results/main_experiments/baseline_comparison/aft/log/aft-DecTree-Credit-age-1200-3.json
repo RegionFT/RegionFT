@@ -1,0 +1,14 @@
+{
+  "label": "aft-DecTree-Credit-age-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "DecTree",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 6040030,
+  "no_test": 6218736,
+  "prec": 0.9712632920902254,
+  "cpu_time": 1200.220695028,
+  "real_time": 1200.257614850998
+}

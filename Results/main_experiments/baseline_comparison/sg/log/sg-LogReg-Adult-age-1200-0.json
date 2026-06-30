@@ -1,0 +1,14 @@
+{
+  "label": "sg-LogReg-Adult-age-1200",
+  "repeat": 0,
+  "method": "sg",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 4382,
+  "no_test": 9374,
+  "prec": 0.4674631960742479,
+  "cpu_time": 1200.0459711499998,
+  "real_time": 1200.0583362579346
+}

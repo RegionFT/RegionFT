@@ -1,0 +1,14 @@
+{
+  "label": "grft-MLP-Adult-sex-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "MLP",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 8255255,
+  "no_test": 36564754,
+  "prec": 0.22577083384726176,
+  "cpu_time": 1228.699545045,
+  "real_time": 1229.1404371261597
+}

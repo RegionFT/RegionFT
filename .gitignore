@@ -1,0 +1,6 @@
+.DS_Store
+/.venv/
+/env_regionft/
+__pycache__/
+*.pyc
+*.pkl

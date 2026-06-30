@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Bank-age-1200",
+  "repeat": 3,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 429985,
+  "no_test": 500000,
+  "prec": 0.85997,
+  "cpu_time": null,
+  "real_time": 758.9751620292664
+}

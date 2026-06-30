@@ -1,0 +1,14 @@
+{
+  "label": "limi-MLP-Bank-age-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "MLP",
+  "dataset": "Bank",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 297048,
+  "no_test": 500000,
+  "prec": 0.594096,
+  "cpu_time": null,
+  "real_time": 875.3674657344818
+}

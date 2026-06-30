@@ -1,0 +1,14 @@
+{
+  "label": "grft-MLP-Credit-age-1200",
+  "repeat": 1,
+  "method": "grft",
+  "model": "MLP",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 2980971,
+  "no_test": 15536047,
+  "prec": 0.1918744839018574,
+  "cpu_time": 1220.817328579,
+  "real_time": 1221.4488883018494
+}

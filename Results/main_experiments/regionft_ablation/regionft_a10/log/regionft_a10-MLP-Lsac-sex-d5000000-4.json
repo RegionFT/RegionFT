@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a10-MLP-Lsac-sex-d5000000",
+  "repeat": 4,
+  "method": "regionft_a10",
+  "model": "MLP",
+  "dataset": "Lsac",
+  "protected": "sex",
+  "runtime": 7200,
+  "no_disc": 581968,
+  "no_test": 7116821,
+  "prec": 0.08177358964065556,
+  "cpu_time": 192.71520503900047,
+  "real_time": 192.71982383728027,
+  "partition": {
+    "cpu_time": 115.85426563700003,
+    "real_time": 115.85829305648804,
+    "no_test": 2116821,
+    "no_disc": 56363,
+    "n_regions": 993
+  },
+  "generation": {
+    "cpu_time": 76.86093940200044,
+    "real_time": 76.86153078079224,
+    "no_test": 5000000,
+    "no_disc": 525605
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 10.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 4
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "label": "regionft_a8-DecTree-Adult-age-d5000000",
+  "repeat": 0,
+  "method": "regionft_a8",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 7200,
+  "no_disc": 5101041,
+  "no_test": 5259784,
+  "prec": 0.9698194830814345,
+  "cpu_time": 258.19209576000003,
+  "real_time": 258.19275975227356,
+  "partition": {
+    "cpu_time": 23.157677567000064,
+    "real_time": 23.15889048576355,
+    "no_test": 259784,
+    "no_disc": 104060,
+    "n_regions": 114
+  },
+  "generation": {
+    "cpu_time": 235.03441819299996,
+    "real_time": 235.03386926651,
+    "no_test": 5000000,
+    "no_disc": 4996981
+  },
+  "config": {
+    "max_depth": 10,
+    "min_samples_per_region": 1000,
+    "max_samples_per_region": 3000,
+    "min_gain": 0.0,
+    "gini_weight_mode": "sample",
+    "max_split_ratio": 1.0,
+    "sampling_risk_focus_alpha": 8.0,
+    "sampling_risk_floor": 1e-05,
+    "batch_size": 512,
+    "disc_phase": "generation",
+    "sample_draws": 5000000,
+    "random_seed": 0
+  }
+}

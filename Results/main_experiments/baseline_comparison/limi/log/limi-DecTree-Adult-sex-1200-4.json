@@ -1,0 +1,14 @@
+{
+  "label": "limi-DecTree-Adult-sex-1200",
+  "repeat": 4,
+  "method": "limi",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 62311,
+  "no_test": 421200,
+  "prec": 0.14793684710351376,
+  "cpu_time": null,
+  "real_time": 418.7447237968445
+}

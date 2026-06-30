@@ -1,0 +1,14 @@
+{
+  "label": "limi-GBDT-Adult-sex-1200",
+  "repeat": 0,
+  "method": "limi",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 14481,
+  "no_test": 440883,
+  "prec": 0.03284544879253679,
+  "cpu_time": null,
+  "real_time": 593.737761259079
+}

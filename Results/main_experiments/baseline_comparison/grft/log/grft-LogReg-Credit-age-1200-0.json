@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Credit-age-1200",
+  "repeat": 0,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 3529540,
+  "no_test": 16995683,
+  "prec": 0.20767273665906807,
+  "cpu_time": 1226.0352757379999,
+  "real_time": 1226.6376671791077
+}

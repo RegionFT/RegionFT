@@ -1,0 +1,14 @@
+{
+  "label": "aft-DecTree-Lsac-race-1200",
+  "repeat": 3,
+  "method": "aft",
+  "model": "DecTree",
+  "dataset": "Lsac",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 2406273,
+  "no_test": 2759366,
+  "prec": 0.8720383595362123,
+  "cpu_time": 1201.004876426,
+  "real_time": 1201.084115743637
+}

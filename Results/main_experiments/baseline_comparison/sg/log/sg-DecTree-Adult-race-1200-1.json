@@ -1,0 +1,14 @@
+{
+  "label": "sg-DecTree-Adult-race-1200",
+  "repeat": 1,
+  "method": "sg",
+  "model": "DecTree",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 2228,
+  "no_test": 6168,
+  "prec": 0.36121919584954604,
+  "cpu_time": 1200.0530087400002,
+  "real_time": 1200.0597205162048
+}

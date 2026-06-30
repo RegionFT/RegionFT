@@ -1,0 +1,14 @@
+{
+  "label": "sg-LogReg-Credit-sex-1200",
+  "repeat": 2,
+  "method": "sg",
+  "model": "LogReg",
+  "dataset": "Credit",
+  "protected": "sex",
+  "runtime": 1200,
+  "no_disc": 726,
+  "no_test": 7251,
+  "prec": 0.10012412081092263,
+  "cpu_time": 1200.0451911169998,
+  "real_time": 1200.0540940761566
+}

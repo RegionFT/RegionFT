@@ -1,0 +1,14 @@
+{
+  "label": "sg-GBDT-Adult-age-1200",
+  "repeat": 2,
+  "method": "sg",
+  "model": "GBDT",
+  "dataset": "Adult",
+  "protected": "age",
+  "runtime": 1200,
+  "no_disc": 5514,
+  "no_test": 8214,
+  "prec": 0.6712929145361578,
+  "cpu_time": 1200.090854605,
+  "real_time": 1200.1007719039917
+}

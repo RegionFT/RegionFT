@@ -1,0 +1,14 @@
+{
+  "label": "grft-LogReg-Adult-race-1200",
+  "repeat": 4,
+  "method": "grft",
+  "model": "LogReg",
+  "dataset": "Adult",
+  "protected": "race",
+  "runtime": 1200,
+  "no_disc": 7317781,
+  "no_test": 27669382,
+  "prec": 0.26447215192590856,
+  "cpu_time": 1228.9777287260001,
+  "real_time": 1229.5235860347748
+}
